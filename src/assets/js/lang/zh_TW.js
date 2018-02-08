@@ -25,7 +25,7 @@ export default {
     name: '姓名',
     name_placeholder: '必填，填寫收件人姓名',
     phone: '手機',
-    phone_placeholder: '必填，填寫收件人聯繫電話',
+    phone_placeholder: '填寫收件人聯繫電話',
     satisfactions: '滿意度',
     uploadImage: '上传图片',
     diolog: '确定要删除这张图片吗？',
