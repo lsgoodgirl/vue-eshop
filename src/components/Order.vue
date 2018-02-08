@@ -121,15 +121,50 @@ Vue.component(Picker.name, Picker)
 const dictionary = {
   ja: {
     attributes: {
-      trueName: '名字',
-      zipCode: 'trueName',
-      provinceId: '',
-      cityId: '',
-      areaId: '',
-      address: '',
-      telPhone: '',
-      email: '',
-      orderMessage: ''
+      trueName: 'お名前',
+      zipCode: '郵便番号',
+      provinceId: '都道府県',
+      cityId: '市区町村',
+      address: '建物名',
+      telPhone: '電話番号',
+      email: 'Email',
+      orderMessage: 'メッセージ'
+    }
+  },
+  zh_HK: {
+    attributes: {
+      trueName: 'Full name',
+      zipCode: 'Postal Code',
+      provinceId: 'District',
+      cityId: 'Municipalities',
+      address: 'Address Details',
+      telPhone: 'Phone Number',
+      email: 'Email',
+      orderMessage: 'Comments'
+    }
+  },
+  ms_MY: {
+    attributes: {
+      trueName: 'Full name',
+      zipCode: 'Postal Code',
+      provinceId: 'State',
+      cityId: 'Municipalities',
+      address: 'Address Details',
+      telPhone: 'Phone Number',
+      email: 'Email',
+      orderMessage: 'Comments'
+    }
+  },
+  zh_TW: {
+    attributes: {
+      trueName: '姓名',
+      zipCode: '郵遞區號',
+      provinceId: '縣市',
+      cityId: '詳細地址',
+      address: '詳細地址',
+      telPhone: '電話號碼',
+      email: 'Email',
+      orderMessage: '留言'
     }
   }
 }
